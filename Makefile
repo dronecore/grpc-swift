@@ -2,7 +2,7 @@
 CFLAGS = -Xcc -ISources/BoringSSL/include
 
 all:
-	swift package generate-xcodeproj
+	# swift package generate-xcodeproj
 	swift build -v $(CFLAGS)
 	
 test:
