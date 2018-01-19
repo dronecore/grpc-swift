@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SwiftGRPC::RootsEncoder"
+               BuildableName = "RootsEncoder"
+               BlueprintName = "RootsEncoder"
+               ReferencedContainer = "container:SwiftGRPC.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "SwiftGRPC::gRPC"
                BuildableName = "gRPC.framework"
                BlueprintName = "gRPC"
@@ -56,7 +70,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BuildableName = "&apos;$(TARGET_NAME)&apos;"
+               BlueprintIdentifier = "zlib::zlib-example"
+               BuildableName = "zlib-example"
                BlueprintName = "zlib-example"
                ReferencedContainer = "container:SwiftGRPC.xcodeproj">
             </BuildableReference>
@@ -112,9 +127,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "SwiftGRPC::gRPC"
-            BuildableName = "gRPC.framework"
-            BlueprintName = "gRPC"
+            BlueprintIdentifier = "SwiftGRPC::RootsEncoder"
+            BuildableName = "RootsEncoder"
+            BlueprintName = "RootsEncoder"
             ReferencedContainer = "container:SwiftGRPC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
